@@ -1,0 +1,329 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Politique de confidentialité de l'application Kalis.">
+    <title>Politique de confidentialité | Kalis</title>
+    <style>
+        :root {
+            color-scheme: light;
+            --ink: #202a26;
+            --muted: #52615b;
+            --paper: #f7f8f5;
+            --surface: #fff;
+            --line: #dce3dd;
+            --accent: #176b53;
+            --notice: #fff4d6;
+            --notice-ink: #5d4512;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            background: var(--paper);
+            color: var(--ink);
+            font: 16px/1.7 system-ui, -apple-system, "Segoe UI", sans-serif;
+        }
+
+        header {
+            padding: 3rem 1.25rem 2.25rem;
+            background: #e8f0e9;
+            border-bottom: 1px solid var(--line);
+        }
+
+        .wrap {
+            width: min(100% - 2rem, 820px);
+            margin-inline: auto;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: clamp(2rem, 6vw, 3rem);
+            line-height: 1.12;
+        }
+
+        h2 {
+            margin: 2.25rem 0 .6rem;
+            font-size: 1.4rem;
+            line-height: 1.3;
+        }
+
+        h3 {
+            margin: 1.5rem 0 .4rem;
+            font-size: 1.08rem;
+        }
+
+        p,
+        ul {
+            margin: .65rem 0;
+        }
+
+        ul {
+            padding-left: 1.35rem;
+        }
+
+        a {
+            color: var(--accent);
+            text-underline-offset: .18em;
+        }
+
+        .eyebrow {
+            margin: 0 0 .5rem;
+            color: var(--accent);
+            font-weight: 700;
+        }
+
+        .meta {
+            margin: .8rem 0 0;
+            color: var(--muted);
+        }
+
+        nav {
+            display: flex;
+            flex-wrap: wrap;
+            gap: .75rem;
+            margin-top: 1.25rem;
+        }
+
+        nav a {
+            display: inline-block;
+            padding: .4rem .8rem;
+            border: 1px solid #9aafa3;
+            border-radius: 4px;
+            background: var(--surface);
+            text-decoration: none;
+            font-weight: 650;
+        }
+
+        main {
+            padding: 1.5rem 0 3rem;
+        }
+
+        section.language {
+            margin: 1.25rem 0 2rem;
+            padding: 1.5rem clamp(1rem, 4vw, 2rem) 2rem;
+            background: var(--surface);
+            border: 1px solid var(--line);
+            border-radius: 6px;
+        }
+
+        .draft-notice {
+            margin: 1rem 0;
+            padding: .9rem 1rem;
+            border-left: 4px solid #c38b18;
+            background: var(--notice);
+            color: var(--notice-ink);
+        }
+
+        .placeholder {
+            font-weight: 700;
+        }
+
+        footer {
+            padding: 1.5rem 0 2.5rem;
+            color: var(--muted);
+            font-size: .92rem;
+        }
+
+        @media (max-width: 520px) {
+            header {
+                padding-top: 2.25rem;
+            }
+
+            section.language {
+                padding-inline: 1rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="wrap">
+            <p class="eyebrow">Kalis</p>
+            <h1>Politique de confidentialité</h1>
+            <p class="meta">Dernière mise à jour : 25 novembre 2026</p>
+            <nav aria-label="Choisir la langue">
+                <a href="#fr">Français</a>
+                <a href="#en">English</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="wrap">
+        <section class="language" id="fr" lang="fr">
+            <h2>Version française</h2>
+
+            <h2>1. Responsable et contact</h2>
+            <p>Kalis est une application de suivi et d'organisation d'entraînements de callisthénie, publiée sous le nom
+                <strong>valooozz</strong>.
+            </p>
+            <p>Pour toute question concernant cette politique ou tes données, écris à <a
+                    href="mailto:valentin.yvre@gmail.com">valentin.yvre@gmail.com</a>.</p>
+
+            <h2>2. Données traitées</h2>
+            <p>Pour fournir les fonctionnalités de Kalis, les catégories de données suivantes peuvent être traitées :
+            </p>
+            <ul>
+                <li><strong>Compte et connexion :</strong> identifiant utilisateur Firebase (UID) créé lors de la
+                    connexion anonyme. Si tu lies un compte Google, l'adresse e-mail associée est utilisée pour la
+                    connexion et peut être affichée dans les paramètres.</li>
+                <li><strong>Données d'entraînement :</strong> figures et leur progression, records, dates, séances
+                    effectuées ou planifiées, routines de renforcement, lieux que tu enregistres, activités
+                    hebdomadaires, notes générales et entrées de journal.</li>
+                <li><strong>Préférences locales :</strong> langue choisie, préférences d'aide et état de l'introduction.
+                    Elles sont enregistrées sur l'appareil et ne sont pas synchronisées dans Firestore par Kalis.</li>
+            </ul>
+            <p>Les notes et noms que tu saisis peuvent contenir des informations personnelles. Évite d'y inscrire des
+                informations sensibles qui ne sont pas nécessaires à l'utilisation de l'application.</p>
+            <p>Kalis n'intègre pas d'outil d'analyse d'audience, de publicité ou de suivi marketing. Les services
+                Google/Firebase peuvent néanmoins traiter certaines données techniques nécessaires à l'authentification,
+                à la sécurité et au fonctionnement de leurs services, conformément à leurs propres pratiques.</p>
+
+            <h2>3. Finalités</h2>
+            <p>Les données sont utilisées pour créer et maintenir ton compte, enregistrer et synchroniser tes
+                entraînements entre tes appareils, fournir les fonctionnalités de l'application, sécuriser le service et
+                répondre aux demandes que tu nous adresses. Elles ne sont pas vendues ni utilisées par l'éditeur à des
+                fins publicitaires ou de profilage marketing.</p>
+
+            <h2>4. Services et destinataires</h2>
+            <p>Kalis utilise Firebase Authentication et Cloud Firestore, fournis par Google, pour l'authentification et
+                la synchronisation des données. La liaison facultative d'un compte Google utilise Google Sign-In. Ces
+                fournisseurs traitent les données nécessaires pour fournir leurs services. Google peut traiter certaines
+                données techniques conformément à ses propres politiques.</p>
+            <p>Pour en savoir plus, consulte les <a href="https://policies.google.com/privacy?hl=fr">Règles de
+                    confidentialité de Google</a> et les informations de <a
+                    href="https://firebase.google.com/support/privacy">confidentialité et sécurité de Firebase</a>.</p>
+
+            <h2>5. Hébergement et transferts</h2>
+            <p>Les données de compte et d'entraînement sont hébergées dans Cloud Firestore. Les services Google peuvent
+                traiter des données dans des pays autres que celui où tu te trouves, selon leurs infrastructures et les
+                paramètres du projet. Les transferts sont soumis aux garanties applicables de Google.</p>
+
+            <h2>6. Conservation et suppression</h2>
+            <p>Les données associées au compte sont conservées tant que le compte existe. Tu peux demander la
+                suppression depuis les paramètres de l'application. Tu peux également envoyer un e-mail à <a
+                    href="mailto:valentin.yvre@gmail.com?subject=Suppression%20de%20mon%20compte%20Kalis">valentin.yvre@gmail.com</a>
+                en indiquant l'UID affiché dans les paramètres, afin que nous retrouvions le compte concerné.</p>
+            <p>La suppression du compte et des données associées est effectuée dans un délai maximal de sept jours
+                calendaires après la demande. L'éditeur ne conserve pas de copie des données de compte après le
+                traitement de la suppression. Les fournisseurs techniques peuvent appliquer leurs propres durées de
+                purge aux journaux et sauvegardes résiduels.</p>
+            <p>Les préférences enregistrées uniquement sur ton appareil restent sur celui-ci jusqu'à la désinstallation
+                de l'application ou à l'effacement de ses données locales.</p>
+
+            <h2>7. Sécurité</h2>
+            <p>Les communications avec Firebase utilisent les mécanismes de connexion sécurisée fournis par les services
+                Google. L'accès aux données nécessite une authentification Firebase. Aucun système de transmission ou de
+                stockage ne pouvant être garanti absolument, protège également l'accès à ton appareil et à ton compte
+                Google.</p>
+
+            <h2>8. Tes droits</h2>
+            <p>Selon les lois applicables à ta situation, tu peux demander l'accès à tes données, leur rectification ou
+                leur suppression, et exercer les autres droits prévus par ces lois. Pour nous contacter, écris à <a
+                    href="mailto:valentin.yvre@gmail.com">valentin.yvre@gmail.com</a> en indiquant l'UID du compte
+                concerné. Si tu résides dans l'Espace économique européen, tu peux aussi introduire une réclamation
+                auprès de l'autorité de protection des données compétente, par exemple la CNIL en France.</p>
+
+            <h2>9. Enfants</h2>
+            <p>Kalis n'est pas conçue ni destinée spécifiquement aux enfants. Si tu es parent ou représentant légal et
+                penses qu'un enfant nous a transmis des données, contacte-nous afin que nous puissions examiner la
+                demande.</p>
+
+            <h2>10. Modifications</h2>
+            <p>Cette politique peut être mise à jour si les fonctionnalités, les services utilisés ou les obligations
+                applicables changent. La date de dernière mise à jour figure en haut de la page. Les changements
+                importants seront signalés dans l'application lorsque cela est approprié.</p>
+        </section>
+
+        <section class="language" id="en" lang="en">
+            <h2>English version</h2>
+
+            <h2>1. Controller and contact</h2>
+            <p>Kalis is an app for tracking and planning calisthenics training, published under the name
+                <strong>valooozz</strong>.
+            </p>
+            <p>For questions about this policy or your data, email <a
+                    href="mailto:valentin.yvre@gmail.com">valentin.yvre@gmail.com</a>.</p>
+
+            <h2>2. Data we process</h2>
+            <p>To provide Kalis features, we may process the following categories of data:</p>
+            <ul>
+                <li><strong>Account and sign-in data:</strong> a Firebase user ID (UID) created when you sign in
+                    anonymously. If you link a Google account, its associated email address is used for sign-in and may
+                    be displayed in settings.</li>
+                <li><strong>Training data:</strong> figures and progress, records, dates, completed or planned sessions,
+                    strength routines, places you add, weekly activities, general notes and journal entries.</li>
+                <li><strong>Local preferences:</strong> selected language, help preferences and onboarding state. Kalis
+                    stores these on your device and does not sync them to Firestore.</li>
+            </ul>
+            <p>Notes and names you enter may contain personal information. Please avoid entering sensitive information
+                that is not needed to use the app.</p>
+            <p>Kalis does not include audience analytics, advertising or marketing-tracking tools. Google/Firebase
+                services may still process technical data needed for authentication, security and service operation,
+                under their own practices.</p>
+
+            <h2>3. Purposes</h2>
+            <p>Data is used to create and maintain your account, save and sync training information across your devices,
+                provide app features, secure the service and respond to requests you send us. The publisher does not
+                sell the data or use it for advertising or marketing profiling.</p>
+
+            <h2>4. Services and recipients</h2>
+            <p>Kalis uses Firebase Authentication and Cloud Firestore, provided by Google, for sign-in and data
+                synchronisation. Linking a Google account is optional and uses Google Sign-In. These providers process
+                data needed to deliver their services. Google may process certain technical data under its own policies.
+            </p>
+            <p>See <a href="https://policies.google.com/privacy?hl=en">Google's Privacy Policy</a> and <a
+                    href="https://firebase.google.com/support/privacy">Firebase privacy and security information</a>.
+            </p>
+
+            <h2>5. Hosting and international transfers</h2>
+            <p>Account and training data are hosted in Cloud Firestore. Google services may process data in countries
+                other than your own, depending on their infrastructure and project settings. Transfers are subject to
+                Google's applicable safeguards.</p>
+
+            <h2>6. Retention and deletion</h2>
+            <p>Data associated with your account is kept while the account exists. You can request deletion from the app
+                settings. You can also email <a
+                    href="mailto:valentin.yvre@gmail.com?subject=Delete%20my%20Kalis%20account">valentin.yvre@gmail.com</a>
+                and include the UID shown in settings so we can locate the account.</p>
+            <p>We delete the account and associated data within seven calendar days of the request. The publisher does
+                not keep a copy of account data after deletion is processed. Service providers may apply their own purge
+                periods to residual logs and backups.</p>
+            <p>Preferences stored only on your device remain there until you uninstall the app or clear its local data.
+            </p>
+
+            <h2>7. Security</h2>
+            <p>Communications with Firebase use the secure connection mechanisms provided by Google services. Access to
+                data requires Firebase authentication. No transmission or storage system can be guaranteed absolutely,
+                so please also protect access to your device and Google account.</p>
+
+            <h2>8. Your rights</h2>
+            <p>Depending on the laws that apply to you, you may request access to, correction or deletion of your data
+                and exercise other rights provided by those laws. Contact us at <a
+                    href="mailto:valentin.yvre@gmail.com">valentin.yvre@gmail.com</a> and include the relevant account
+                UID. If you are in the European Economic Area, you may also lodge a complaint with your data protection
+                authority.</p>
+
+            <h2>9. Children</h2>
+            <p>Kalis is not specifically designed or intended for children. If you are a parent or legal guardian and
+                believe a child has provided us with data, contact us so we can review the request.</p>
+
+            <h2>10. Changes</h2>
+            <p>We may update this policy when app features, services or applicable requirements change. The latest
+                update date is shown at the top of this page. We will notify users of significant changes in the app
+                where appropriate.</p>
+        </section>
+
+        <footer>
+            <p>Kalis · <a href="mailto:valentin.yvre@gmail.com">valentin.yvre@gmail.com</a></p>
+        </footer>
+    </main>
+</body>
+
+</html>
